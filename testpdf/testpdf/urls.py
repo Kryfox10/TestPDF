@@ -1,12 +1,14 @@
 from django.conf.urls import patterns, include, url
 
+# from generatepdf import views
+
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'generatepdf.views.some_view', name='home'),
+    url(r'^$', 'generatepdf.views.myview', name='home'),
     # url(r'^testpdf/', include('testpdf.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
